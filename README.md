@@ -68,5 +68,5 @@ While users have the flexibility to define irrigation management schedules manua
 14. ETref - Daily reference ET (mm)
 15. MorP  - Measured ('M') or Predicted ('P') data
 
-
+### In this repository, I tried to compare between the pyfao56 model and our manually calculated Soil water balance model (Spreadsheet). The spreadsheet model is calculated by using the formula based on FAO-56. The outputs and graphs are added in the coding section.
 
