@@ -52,9 +52,8 @@ While users have the flexibility to define irrigation management schedules manua
     tmstmp : datetime
         Time stamp for the class
 ## Weather Information
-According to wth file
-
 1.Type of reference crop  - Short ('S') or Tall ('T') 
+
 2. Weather station elevation (z) (m)
 4. Weather station latitude (decimal degrees)
 5. Weather station wind speed measurement height (m)
