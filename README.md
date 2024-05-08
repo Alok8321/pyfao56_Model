@@ -1,2 +1,2 @@
 # pyfao56 Model
-pyfao56 is a model for estimating crop water use and irrigation scheduling based on FAO-56 dual crop coefficient approach.
+pyfao56 is a model for estimating crop water use and irrigation scheduling based on FAO-56 dual crop coefficient approach. The pyfao56 model is implemented in Python and provides a convenient way to calculate evapotranspiration using the FAO-56 methodology. It takes input parameters such as meteorological data (e.g., temperature, humidity, wind speed) and crop coefficients to compute ET rates for specific crop types and land surfaces.
