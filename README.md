@@ -51,3 +51,21 @@ While users have the flexibility to define irrigation management schedules manua
         User-defined file descriptions or metadata (default = '')
     tmstmp : datetime
         Time stamp for the class
+## Weather Information
+Type of reference crop  - Short ('S') or Tall ('T')
+Weather station elevation (z) (m)
+Weather station latitude (decimal degrees)
+Weather station wind speed measurement height (m)
+index - Year and day of year as string ('yyyy-ddd')
+columns - {'Srad', 'Tmax', 'Tmin', 'Vapr','Tdew', 'RHmax', 'RHmin', 'Wndsp', 'Rain', 'ETref', 'Morp'}
+Srad  - Incoming solar radiation (MJ/m2)
+Tmax  - Daily maximum air temperature (deg C)
+Tmin  - Daily minimum air temperature (deg C)
+Vapr  - Daily average vapor pressure (kPa)
+Tdew  - Daily average dew point temperature (deg C)
+RHmax - Daily maximum relative humidity (%)
+RHmin - Daily minimum relative humidity (%)
+Wndsp - Daily average wind speed (m/s)
+Rain  - Daily precipitation (mm)
+ETref - Daily reference ET (mm)
+MorP  - Measured ('M') or Predicted ('P') data
