@@ -52,20 +52,21 @@ While users have the flexibility to define irrigation management schedules manua
     tmstmp : datetime
         Time stamp for the class
 ## Weather Information
-1.Type of reference crop  - Short ('S') or Tall ('T')
+1.Type of reference crop  - Short ('S') or Tall ('T') 
+
 2. Weather station elevation (z) (m)
 3. Weather station latitude (decimal degrees)
-4. Weather station wind speed measurement height (m)
-5. index - Year and day of year as string ('yyyy-ddd')
-6. columns - {'Srad', 'Tmax', 'Tmin', 'Vapr','Tdew', 'RHmax', 'RHmin', 'Wndsp', 'Rain', 'ETref', 'Morp'}
-7. Srad  - Incoming solar radiation (MJ/m2)
-8. Tmax  - Daily maximum air temperature (deg C)
-9. Tmin  - Daily minimum air temperature (deg C)
-10. Vapr  - Daily average vapor pressure (kPa)
-11. Tdew  - Daily average dew point temperature (deg C)
-12. RHmax - Daily maximum relative humidity (%)
-13. RHmin - Daily minimum relative humidity (%)
-14. Wndsp - Daily average wind speed (m/s)
-15. Rain  - Daily precipitation (mm)
-16. ETref - Daily reference ET (mm)
-17. MorP  - Measured ('M') or Predicted ('P') data
+5. Weather station wind speed measurement height (m)
+6. index - Year and day of year as string ('yyyy-ddd')
+7. columns - {'Srad', 'Tmax', 'Tmin', 'Vapr','Tdew', 'RHmax', 'RHmin', 'Wndsp', 'Rain', 'ETref', 'Morp'}
+8. Srad  - Incoming solar radiation (MJ/m2)
+9. Tmax  - Daily maximum air temperature (deg C)
+10. Tmin  - Daily minimum air temperature (deg C)
+11. Vapr  - Daily average vapor pressure (kPa)
+12. Tdew  - Daily average dew point temperature (deg C)
+13. RHmax - Daily maximum relative humidity (%)
+14. RHmin - Daily minimum relative humidity (%)
+15. Wndsp - Daily average wind speed (m/s)
+16. Rain  - Daily precipitation (mm)
+17. ETref - Daily reference ET (mm)
+18. MorP  - Measured ('M') or Predicted ('P') data
