@@ -69,7 +69,7 @@ While users have the flexibility to define irrigation management schedules manua
 15. MorP  - Measured ('M') or Predicted ('P') data
 ## Site Location
 1. Fort Cobb watershed area  (Mesonet Station: Fort Cobb), Oklahoma
-2. Coordinates:35.206649 -98.552148
+2. Coordinates: 35.206649,-98.552148
 3. Crop: Cotton
 
 ### In this repository, I tried to compare between the pyfao56 model and our manually calculated Soil water balance model (Spreadsheet). The spreadsheet model is calculated by using the formula based on FAO-56. The outputs and graphs are added in the coding section.
